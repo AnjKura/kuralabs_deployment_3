@@ -24,11 +24,9 @@ pipeline {
       post{
         always {
           junit 'test-reports/results.xml'
-        }
+     }
        
-      }
-    }
-   
+   }
   }
  }
 stage ('Clean') {
